@@ -1,0 +1,7 @@
+check	testes.html#check.m,untyped,string	testes: check(body: untyped; message = &quot;&quot;)	
+checkpoint	testes.html#checkpoint,varargs[string,]	testes: checkpoint(ss: varargs[string, `$`])	
+report	testes.html#report.m,varargs[typed]	testes: report(ss: varargs[typed])	
+expect	testes.html#expect.t,typed,untyped	testes: expect(exception: typed; body: untyped)	
+skip	testes.html#skip,string	testes: skip(msg = &quot;skipped&quot;)	
+fail	testes.html#fail,string	testes: fail(msg = &quot;failed&quot;)	
+testes	testes.html#testes.m,untyped	testes: testes(tests: untyped)	
